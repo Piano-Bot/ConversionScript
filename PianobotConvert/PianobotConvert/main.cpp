@@ -15,6 +15,9 @@ const int octave = 12; //Set #semitones
 const int limitL = 48; //Left limit
 const int limitR = 108; //Right limit
 
+
+//Test Github 
+
 int nextNote(int current, int notesToMove);
 bool inRange(int handPos, int note);
 int findFing(int handPos, int note);
