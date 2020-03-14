@@ -3,6 +3,8 @@
 #include <string>
 #include "List.h"
 
+//Ethan's test commit message
+
 using namespace std;
 /* Several objectives and milestones:
  * 1. Converts to the correct format
@@ -41,7 +43,7 @@ int main(void)
 	int row = 0;
 	int rowMax = 0;
 
-	//Flag to determine which variable it is during input
+	//Flag to determine which column it is during input
 	int flag = 0;
 
 	//Hand position variables for calculation
@@ -136,7 +138,7 @@ int main(void)
 	}
 	RHpos = min;
 
-	//Initialize with first hand position
+	//Initialize with first hand positions
 	song.createNode(LHpos,RHpos);
 
 	//Begin adding hand positions and time stamps - Preliminary
